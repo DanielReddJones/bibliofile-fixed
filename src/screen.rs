@@ -1,12 +1,23 @@
 /*
  *@author Daniel Jones
- *@last modified May 8 2025
+ *@last modified May 12 2025
  *@ description: Terminal manager class
  * */
 
-pub mod screen {
-    pub fn main_screen() {
+extern crate cursive;
 
-        println!("You are in the screen file.");
+pub mod screen {
+use cursive::views::TextView;
+use cursive::Cursive;
+
+    pub fn main_screen() {
+        let mut siv = cursive::default();
+        siv.add_global_callback('q', Cursive::quit);
+
+        siv.add_layer(TextView::new(
+"Hello world! \n\
+Press q to close the application!",
+                ));
+        siv.run();
     }
 }

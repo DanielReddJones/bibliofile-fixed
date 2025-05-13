@@ -4,5 +4,6 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+cursive = "0.21.1"
 html5ever = "0.31.0"
 termion = "4.0.5"
