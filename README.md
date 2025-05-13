@@ -19,9 +19,6 @@ Instructions:
 
  to install. When you do this, Bibliofile will be runnable anywhere within Linux.
 
-## disclamers
-
-This program is incomplete. It will be lacking features such s searching text, skipping pages, and using the table of contents. I update this program regularly, so stay tuned!
 
 ## license
 
