@@ -13,50 +13,11 @@ Instructions:
 
  ## installation
 
- At the moment, Bibliofile is a work-in-progress. 
+ Simply type
 
-I have uploaed the crate to crates.io since it is in a minimally-workable state at the moment, but if you wish to compile it yourself simply follow these directions:
+ ``cargo install bibliofile``
 
-
- ### 1
-
- Install Rust. The full Instructions on how to do this are here: https://www.rust-lang.org/tools/install
-
- The easiest way of installing Rust is with the following command:
-
- ```bash
- curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
- ```
-
-
- ### 2
-
- Clone the repository to the directory of your choice
-
- ```git
- git clone https://git.whoisthisjoker.com/daniel/bibliofile
- ```
-
- ### 3
-
-cd into the directory *bibliofile*. Compile the program. This is best done with cargo.
-
- ```rust
- cargo build
- ```
-
- The executable will be in target/debug.
-
- Please keep in mind, at this point in development compilation success is not guaranteed.
-
- ## running
-
- Running the program is simple, as at this point there is not many features. Simply run
-
- ```bibliofile [booknamehere.epub]```
-
-There will be buttons at the bottom of each page that allow you to turn pages. Simply press "last" or "next" to turn the page. There are not yet any keyboard commands to turn pages, but that is the next feature I mean to implement.
-
+ to install. When you do this, Bibliofile will be runnable anywhere within Linux.
 
 ## disclamers
 
