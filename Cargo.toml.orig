@@ -1,0 +1,24 @@
+[package]
+name = "bibliofile"
+version = "0.1.0"
+edition = "2021"
+license-file = "LICENSE"
+description = "A TUI epub reader inspired by DOS-era programs"
+readme="README.md"
+documentation = "https://git.whoisthisjoker.com/Daniel/bibliofile#bibliofile"
+keywords = ["ebook", "epub", "reader", "termion", "tui"]
+category = ["parsing", "command-line-utilities"]
+authors = ["Daniel Jones <daniel@whoisthisjoker.com>"]
+rust-version = "1.73"
+repository = "https://git.whoisthisjoker.com/Daniel/bibliofile"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+epub = "2.0.0"
+scraper = "0.18.1"
+
+
+[dependencies.cursive]
+version = "0.20.0"
+default-features = false
+features = ["termion-backend"]
